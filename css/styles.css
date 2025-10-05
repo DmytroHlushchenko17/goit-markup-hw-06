@@ -421,12 +421,20 @@
     font-size: 56px;
   }
 }
+/* ================================ 1158px ================================== */
+@media only screen and (min-width: 1158px) {
+  .hero {
+    margin: 0 auto;
+    padding: 188px 0;
+    max-width: 1440px;
+  }
+}
 
 /* ====================== END HERO SECTION ========================== */
 
 /* ======================= FEATURE SECTION ============================= */
 
-.feature-icon {
+.feature-box {
   display: none;
 }
 
@@ -481,6 +489,37 @@
   }
   .feature-title {
     text-align: left;
+  }
+}
+
+/* ================================ 1158px ================================== */
+@media only screen and (min-width: 1158px) {
+  .feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .feature-box {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
   }
 }
 
@@ -586,6 +625,20 @@
   }
 }
 
+/* ================================ 1158px ================================== */
+@media only screen and (min-width: 1158px) {
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-box {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+  }
+}
+
 /* ========================END TEAM SECTION =========================== */
 
 /* ========================PORTFOLIO SECTION ===========================*/
@@ -676,6 +729,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 72px;
+  }
+}
+
+/* ================================ 1158px ================================== */
+@media only screen and (min-width: 1158px) {
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -856,6 +917,42 @@
 
   .social-media-box {
     margin-bottom: 0;
+  }
+}
+
+/* ================================ 1158px ================================== */
+@media only screen and (min-width: 1158px) {
+  .footer-conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .end {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .end-logo-web {
+    display: inline-block;
+  }
+
+  .text-footera {
+    max-width: 264px;
+    margin-right: 120px;
+    text-align: left;
+  }
+
+  .end-text {
+    margin: 0;
+  }
+
+  .social-media {
+    margin-right: 80px;
+  }
+
+  .social-media-text {
+    text-align: left;
   }
 }
 
