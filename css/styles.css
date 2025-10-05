@@ -464,6 +464,11 @@
 
 /* ============================== 768px ================================== */
 @media only screen and (min-width: 768px) {
+  .feature {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
   .feature-box {
     flex-direction: row;
     flex-wrap: wrap;
@@ -568,6 +573,11 @@
 }
 /* ================================= 768px =============================== */
 @media only screen and (min-width: 768px) {
+  .team {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
   .team-box {
     display: flex;
     flex-direction: row;
@@ -828,7 +838,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-left: 130px;
   }
 
   .footer-all-tryba {
@@ -853,36 +863,20 @@
 
 /* ============================ MODEL FORMA ============================ */
 .new-model {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: table;
   min-width: 288px;
-  min-height: 623px;
-  margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
-
-  /* background-color: rgba(46, 47, 66, 0.4); */
-  /* opacity: 1; */
-  top: 0;
-  left: 0;
-  /* position: fixed;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-/* .is-open {
-  opacity: 0;
-  pointer-events: auto;
-} */
 
 .new-model-all {
-  padding: 72px 16px 24px 16px;
+  padding-top: 72px;
+  padding-bottom: 24px;
   min-width: 256px;
-
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .exit-btn {
@@ -895,7 +889,7 @@
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -926,10 +920,10 @@
 }
 /* ============================ */
 .formochka {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   max-width: 256px;
-  margin-top: 16px;
 }
 .tipa-ligki {
   margin-bottom: 8px;
@@ -991,7 +985,7 @@
   line-height: 117%;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  width: 100%;
+
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 256px;
@@ -1073,6 +1067,34 @@
   fill: #f4f4fd;
   border: none;
 }
+/* ================================== 768px ============================== */
+
+@media only screen and (min-width: 768px) {
+  .new-model {
+    display: table;
+    min-width: 408px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+      0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+  }
+
+  .new-model-all {
+    padding-top: 72px;
+    padding-bottom: 24px;
+  }
+
+  .formochka {
+    min-width: 360px;
+  }
+
+  .formochka-tryba-textarea {
+    width: 360px;
+  }
+}
 /* ======================== MENU FORM ============================ */
 .menu-form {
   width: 320px;
@@ -1127,4 +1149,10 @@
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-form {
+    display: none;
+  }
 }
