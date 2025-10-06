@@ -1015,7 +1015,7 @@
 
   .text-footera {
     max-width: 264px;
-    margin-left: 156px;
+    margin-left: 0px;
     margin-right: 120px;
     text-align: left;
   }
