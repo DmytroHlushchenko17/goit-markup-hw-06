@@ -364,7 +364,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/images1x/hero/hero\ image320.jpg);
+    url(../images/images1x/hero/image320.jpg);
   max-width: 320px;
 }
 
@@ -374,7 +374,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/images2x/hero/hero\ image320-2x.jpg);
+      url(../images/images2x/hero/image320-2x.jpg);
   }
 }
 
@@ -432,7 +432,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/images1x/hero/hero\ image768.jpg);
+      url(../images/images1x/hero/image768.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -441,7 +441,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/images2x/hero/hero\ image768-2x.jpg);
+        url(../images/images2x/hero/image768-2x.jpg);
     }
   }
 }
