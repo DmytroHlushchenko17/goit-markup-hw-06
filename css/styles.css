@@ -364,9 +364,18 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/images2x/hero/people-office2x.jpg'),
-    url('../images/images2x/hero/people-office1x.jpg');
+    url(../images/images1x/hero/hero\ image320.jpg);
   max-width: 320px;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/images2x/hero/hero\ image320-2x.jpg);
+  }
 }
 
 .hero-title {
@@ -418,6 +427,23 @@
     margin-bottom: 36px;
     font-size: 56px;
   }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/images1x/hero/hero\ image768.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/images2x/hero/hero\ image768-2x.jpg);
+    }
+  }
 }
 /* ================================ 1158px ================================== */
 @media only screen and (min-width: 1158px) {
@@ -425,6 +451,23 @@
     margin: 0 auto;
     padding: 188px 0;
     max-width: 1440px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/images1x/hero/people-office-1.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/images2x/hero/people-office2x.jpg);
+    }
   }
 }
 
