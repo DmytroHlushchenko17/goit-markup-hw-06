@@ -235,6 +235,8 @@
 @media only screen and (min-width: 1168px) {
   .container {
     max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .header-page {
     background: #ffffff;
@@ -558,9 +560,7 @@
 /* ============================== END FEATURE SECTION===================== */
 
 /* ============================== TEAM SECTION ============================ */
-/* .container {
-  margin: 0 auto;
-} */
+
 .team {
   background-color: #f4f4fd;
   padding-top: 96px;
@@ -810,10 +810,6 @@
 
 /* ========================== FOOTER SECTION ================================ */
 
-/* .container {
-  max-width: 320px;
-} */
-
 .end {
   background: #2e2f42;
   padding-top: 96px;
@@ -972,14 +968,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .text-footera {
-    margin-left: 103px;
+    padding-left: 108px;
   }
 
   .footer-all-tryba {
     align-items: flex-start;
-    margin-left: 103px;
   }
 
   .footer-form {
@@ -994,11 +987,25 @@
   .social-media-box {
     margin-bottom: 0;
   }
+  .end-logo-web {
+    display: block;
+    text-align: left;
+  }
+
+  .social-media-text {
+    text-align: left;
+  }
+
+  .social-media {
+    margin-bottom: 0;
+  }
 }
 
 /* ================================ 1158px ================================== */
 @media only screen and (min-width: 1158px) {
   .footer-conteiner {
+    padding-right: 15px;
+    padding-left: 15px;
     display: flex;
     flex-wrap: nowrap;
     margin: 0 auto;
@@ -1018,6 +1025,7 @@
     margin-left: 0px;
     margin-right: 120px;
     text-align: left;
+    margin-bottom: 0;
   }
 
   .end-text {
@@ -1066,7 +1074,6 @@
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-  max-height: 623px;
   max-width: 288px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -1117,13 +1124,12 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  text-align: center;
 }
 /* ============================ */
 .formochka {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  max-width: 256px;
 }
 .tipa-ligki {
   margin-bottom: 8px;
@@ -1155,7 +1161,7 @@
   background-color: transparent;
   transition: border-color 250ms linear;
   position: relative;
-  padding-left: 16px;
+  padding-left: 36px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1179,13 +1185,13 @@
 }
 
 .formochka-tryba-textarea {
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 256px;
@@ -1222,7 +1228,6 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .formochka-checkbox-box {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
@@ -1279,7 +1284,6 @@
     padding-right: 16px;
     margin: 0 auto;
     max-width: 408px;
-    max-height: 584px;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
       0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -1294,9 +1298,8 @@
   .formochka {
     min-width: 360px;
   }
-
   .formochka-tryba-textarea {
-    width: 360px;
+    width: 100%;
   }
 }
 /* ===================================== 1158px ============================= */
@@ -1315,7 +1318,10 @@
 }
 
 .menu-form {
-  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   background: #fff;
   padding-top: 72px;
   padding-left: 24px;
@@ -1360,10 +1366,10 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-form-nav {
+/* .menu-form-nav {
   min-width: 151px;
   margin-bottom: 158px;
-}
+} */
 
 .menu-form-nav-list {
   display: flex;
@@ -1396,6 +1402,7 @@
 }
 .menu-form-address {
   font-style: normal;
+  margin-bottom: 48px;
 }
 
 .menu-form-address-inf {
